@@ -33,13 +33,35 @@ it displays the message "Numbers are equal"."""
         print(f"{num1}<{num2}")
     else:
         print(f"{num1}={num2}")
-        
-def x_y(x,y):
+           
+def x_2(x,y=2):
     """Take the numbers x and y from the user and x
 The function that brings y to the console."""
-    print(f"{x}**{y}={x**y}")
-    
-    
+    print(f"{x}**{y}={x**y}")    
+
+def division(x):
+    """A function that takes a number from a user and 
+checks that the number is divisible by 2 to 10 without 
+a remainder. Outputs the results to the console."""
+    n = list(range(2,11))
+    for m in n:
+        if x%m==0:
+            print(f"{x} is divisible by {m} indefinitely.")
+        else:
+            print(f"{x} is not divisible by {m} indefinitely.")
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
