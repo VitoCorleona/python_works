@@ -89,13 +89,7 @@ baholar = bahola(talabalar)
 print(baholar)
 print(talabalar)
 
-def kopaytir(*son):
-    num = 1   
-    for n in son:
-        num *= n
-    return num
 
-print(kopaytir(5,6,7,8,9,7))
 
 
 
