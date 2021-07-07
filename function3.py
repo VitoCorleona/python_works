@@ -19,3 +19,7 @@ def list_tuz(name,surname,**ad_info):
     return ad_info
 
 print(list_tuz("Ilhomjon","Toshmurodov",yosh=32,tel=902642731))
+
+
+import math
+print (math.pi)
